@@ -514,7 +514,6 @@ include 'nav.php';
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
 
