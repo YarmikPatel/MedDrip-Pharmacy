@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-include('../../Backend/connection.php');
+include('../connection.php');
 
 // Get order_id from URL (or default to 1 for testing)
 $oid = isset($_GET['oid']) ? intval($_GET['oid']) : 1;

@@ -1,6 +1,6 @@
 <?php
 // Include database connection and navbar
-include('../Backend/connection.php');
+include('connection.php');
 include 'nav.php';
 
 // Check if the product ID is passed in the URL

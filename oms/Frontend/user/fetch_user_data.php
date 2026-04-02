@@ -1,5 +1,5 @@
 <?php
-include('../../Backend/connection.php');
+include('../connection.php');
 $email = $_GET['email_id'];
 
 $sql = "SELECT full_name, phone FROM registration WHERE email_id = ?";

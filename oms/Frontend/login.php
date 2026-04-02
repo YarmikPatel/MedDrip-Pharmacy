@@ -1,5 +1,5 @@
 <?php
-include('../Backend/connection.php');
+include('connection.php');
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $email = $conn->real_escape_string($_POST['email']);

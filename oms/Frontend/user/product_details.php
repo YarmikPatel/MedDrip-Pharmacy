@@ -1,6 +1,6 @@
 <?php
 // Start session and include dependencies
-include('../../Backend/connection.php');
+include('../connection.php');
 include 'navbar.php';
 
 // Validate and retrieve product ID

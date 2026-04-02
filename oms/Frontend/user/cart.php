@@ -1,5 +1,5 @@
 <?php
-include('../../Backend/connection.php');
+include('../connection.php');
 include('navbar.php');
 if (!isset($_SESSION['uid'])) {
     die('User not logged in. UID not found in session.');

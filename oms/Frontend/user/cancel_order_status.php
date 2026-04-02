@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-include('../../Backend/connection.php');
+include('../connection.php');
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $oid = isset($_POST['order_id']) ? intval($_POST['order_id']) : 0;

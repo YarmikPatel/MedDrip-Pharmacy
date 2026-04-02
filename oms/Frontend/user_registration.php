@@ -1,5 +1,5 @@
 <?php
-include('../Backend/connection.php');
+include('connection.php');
 ob_start(); // Helps prevent header issues
 ?>
 
@@ -216,7 +216,7 @@ ob_start(); // Helps prevent header issues
 
 
 
-<!-- JavaScript Validation Script (Vanilla JS) -->
+<!-- JavaScript Validation Script-->
 <script>
     document.addEventListener("DOMContentLoaded", function() {
       const form = document.getElementById("registrationForm");

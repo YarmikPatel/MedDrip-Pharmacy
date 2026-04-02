@@ -1,5 +1,5 @@
 <?php
-include('../../Backend/connection.php');
+include('../connection.php');
 include 'navbar.php';
 
 // Check if user is logged in

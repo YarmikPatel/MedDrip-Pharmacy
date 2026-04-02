@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../../Backend/connection.php');
+include('../connection.php');
 $uid =  $_SESSION['uid'];
 
 $pre_id=$_GET['pre_id'];

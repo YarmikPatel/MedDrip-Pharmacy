@@ -1,5 +1,5 @@
 <?php
-    include('../../Backend/connection.php');
+    include('../connection.php');
     include 'navbar.php';
     // echo "<script>alert(".$_SESSION['user_name'].");</script>";
 ?>
